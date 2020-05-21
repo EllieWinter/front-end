@@ -1,0 +1,81 @@
+
+body {
+  margin: rgb(217, 85, 1, 0.6);
+}
+
+
+
+.header {
+  background-image: url("https://media.cdnws.com/_i/6533/cs200-12276/2980/78/cats-coral.jpeg");
+  padding: 20px;
+  text-align: center;
+  text-decoration: overline;
+  text-transform: capitalize;
+}
+
+
+
+.col-container {
+    display: flex; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+    height: 50%;
+}
+
+.col {
+	width: 50%;
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    padding: 16px;
+    background-color: #FF9966;
+    border: groove;
+
+}
+
+.tablecontent {
+	text-align:center;
+	text-decoration: underline;
+	letter-spacing: 3px;
+
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+h1 {
+	background-image:url("https://media.cdnws.com/_i/6533/cs200-12276/2980/78/cats-coral.jpeg");
+	background-position: left;
+	background-repeat: repeat;
+	text-align: center;
+	text-decoration: overline;
+	text-transform: capitalize;
+	text-shadow: 1px 1px 1px #000;
+
+               
+}
+
+
+h2 {
+	text-align: center;
+	letter-spacing: 3px;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+    /*background-image: url(https://as1.ftcdn.net/jpg/01/49/06/06/500_F_149060624_65brtN946O76JahJrbqukA9tpCD33MTz.jpg)*/
+    
+}
+
+
+
+ol {
+	list-style-type: upper-roman;
+}
+
